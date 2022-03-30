@@ -96,6 +96,11 @@ buttons = [
         InlineKeyboardButton(
             text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/anu_pui"
         ),
+        InlineKeyboardButton(
+
+            text="✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/anonymous_was_bot"
+
+        ),
     ],
 ]
 
