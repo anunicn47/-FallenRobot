@@ -140,7 +140,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="✗ ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ ✗", url="t.me/anu_music00bot?startgroup=true"),
+            text="✗ ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ᴘᴜɪɪ ✗", url="t.me/anu_music00bot?startgroup=true"),
 
     ],
 
