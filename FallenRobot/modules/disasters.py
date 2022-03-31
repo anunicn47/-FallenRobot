@@ -643,9 +643,6 @@ Group admins/group owners do not need these commands.
  ❍ /set var <newvar> <vavariable>*:* Add new variable or update existing value variable.
  ❍ /del var <var>*:* Delete existing variable.
  ❍ /logs Get heroku dyno logs.
-
-`⚠️ Read from top`
-Visit @{SUPPORT_CHAT} for more information.
 """
 
 SUDO_HANDLER = CommandHandler(("addsudo", "adddragon"), addsudo)
