@@ -101,7 +101,7 @@ async def okgoogle(img):
         photo = io.BytesIO()
         await tbot.download_media(message, photo)
     else:
-        await img.reply("`Reply to photo or sticker fu*ker`")
+        await img.reply("`Reply to photo or sticker puii`")
         return
 
     if photo:
