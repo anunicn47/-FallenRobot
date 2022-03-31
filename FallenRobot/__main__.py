@@ -168,7 +168,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/DevilsHeavenMF"
+            text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/anu_pui"
 
         ),
 
