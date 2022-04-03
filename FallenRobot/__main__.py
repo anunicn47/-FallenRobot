@@ -122,7 +122,7 @@ def get_readable_time(seconds: int) -> str:
 
         ping_time += time_list.pop() + ", "
 
-    time_list.reverse()
+    time_list.pp()
 
     ping_time += ":".join(time_list)
 
