@@ -90,9 +90,9 @@ useragent = "Mozilla/5.0 (Linux; Android 11; SM-M017F Build/PPR1.180610.011; wv)
 opener.addheaders = [("User-agent", useragent)]
 
 
-@register(pattern=r"^/reverse(?: |$)(\d*)")
+@register(pattern=r"^/pp(?: |$)(\d*)")
 async def okgoogle(img):
-    """ For .reverse command, Google search images and stickers. """
+    """ For .pp command, Google search images and stickers. """
     if os.path.isfile("okgoogle.png"):
         os.remove("okgoogle.png")
     
@@ -114,7 +114,7 @@ async def okgoogle(img):
         name = "okgoogle.png"
         image.save(name, "PNG")
         image.close()
-        # https://stackoverflow.com/questions/23270175/google-reverse-image-search-using-post-request#28792943
+        # https://stackoverflow.com/questions/23270175/google-pp-image-search-using-post-request#28792943
         searchUrl = "https://www.google.com/searchbyimage/upload"
         multipart = {"encoded_image": (name, open(name, "rb")), "image_content": ""}
         response = requests.post(searchUrl, files=multipart, allow_redirects=False)
